@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    width: 60rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main #header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../img/banner.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main #header #start {
+    width: 15%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #header #start img {
+    width: 90%;
+    height: 50%;
+    border-radius: 50%;
+}
+main #header #center {
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main #header #center  h1{
+    color: white;
+    letter-spacing: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main #header #end {
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+main #header #end h6{
+    margin-bottom: 1rem;
+    color: white;
+    letter-spacing: 0.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main #menu {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    border: 2px solid black;
+    align-items: center;
+    background-image: linear-gradient(white, black, black, black, white);
+}
+
+main #menu a {
+    display: inline-block;
+    width: 8rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+main #menu a:hover {
+    background-color: white;
+    color: darkred;
+    border-radius: 1rem;
+    border: 2px solid darkorange;
+}
+
+main #contenidomain {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main #contenidomain .caja {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main #contenidomain .caja .h3 {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+main #contenidomain .caja .imgcaja {
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+main #contenidomain .caja .pcaja {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+main #contenidomain .caja .btnCaja{
+    text-align: end;
+}
+main #contenidomain .caja .btnCaja a {
+    background-color: brown;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+main footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

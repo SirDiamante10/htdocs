@@ -1,0 +1,11 @@
+.img200x300 {
+    width: 200px;
+    height: 300px;
+}
+
+#borderedondeado {
+    border-radius: 20px;
+}
+img {
+    border-radius: 20px;
+}

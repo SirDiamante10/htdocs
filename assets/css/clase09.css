@@ -1,0 +1,46 @@
+main {
+    width: 60rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.contenedor {
+    display: flex;
+    background: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.elemento {
+    background: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* row, row-reverse, column, column-reverse */
+.direccion-columna {
+    flex-direction: column;
+}
+
+/* flex-start, flex-end, center, space-between, space-around, space-evenly */
+.espaciado {
+    justify-content: space-between;
+}
+
+.centrado {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+/* nowrap, wrap, wrap-reverse */
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+.elemento-grow {
+    flex-grow: 1;
+}
